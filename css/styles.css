@@ -795,9 +795,13 @@ input {
   pointer-events: none;
 }
 
-/* .order-form:not(:last-child) {
-  margin-bottom: 16px;
-} */
+.modal-title {
+  color: #2e2f42;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
 .modal-form-label {
   display: flex;
@@ -845,13 +849,6 @@ input {
   border: 1px solid rgba(46, 47, 66, 0.4);
   resize: none;
 }
-/* 
-.modal-form-input:hover,
-.modal-form-input:focus,
-.modal-form-textarea:hover,
-.modal-form-textarea:focus {
-  border: 1px solid #4d5ae5;
-} */
 
 .modal-check-text span {
   width: 16px;
